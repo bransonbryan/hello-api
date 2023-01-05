@@ -19,3 +19,6 @@ upgrade-go:
 
 hello:
 	echo "hello"
+
+build:
+	go build -o api cmd/main.go
